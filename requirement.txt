@@ -68,3 +68,9 @@ urllib3==1.26.13
 werkzeug==2.0.3
 yacs==0.1.8
 zipp==3.6.0
+Abstract
+This report explores the application of reinforcement learning (RL) to robotic manipulation tasks, focusing on the development of a 7-DOF Kuka robotic arm within the PyBullet simulation environment. The use of RL, particularly the Deep Q-Network (DQN) algorithm, enables the robot to autonomously learn grasping strategies by interacting with objects in the environment. The project involves two variations of the simulation: a simplified version where the vertical movement is pre-determined, and a more challenging version where the z-axis movement is controlled by the agent.
+
+The simulation environment provides sensory feedback through visual observations such as RGB and depth images, guiding the robot’s decision-making. The reward structure is designed to reinforce successful actions, such as lifting objects above a specified height. By integrating RL techniques, the Kuka arm is trained to generalize its grasping abilities across different objects, demonstrating the potential of RL in solving real-world robotic challenges. The project examines key aspects such as action space configuration, environment setup, and the impact of different control modes on the robot’s performance.
+
+The results highlight the effectiveness of reinforcement learning in enabling robots to learn complex manipulation tasks with minimal human intervention. This project showcases how combining RL algorithms with simulation environments like PyBullet can be a powerful approach for developing robotic systems capable of autonomous decision-making. These findings hold significant implications for industries such as automated manufacturing and space exploration, where autonomous robotic systems are essential for performing repetitive and high-precision tasks.
